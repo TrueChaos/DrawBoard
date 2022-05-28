@@ -1,0 +1,173 @@
+      #back{
+                width: 1360px;
+                height: 558px;
+                z-index: 0;
+                position: absolute;
+                background: green;
+            }
+            
+            #menu{
+                position: absolute;
+                margin-top: 108px;
+                margin-left: 18px;
+                display: flex;
+                flex-direction: column;
+                width: 64px;
+                height: 342px;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                align-items:center; 
+                z-index: 2;
+            }
+            #menu img{
+                width: 32px;
+                height: 32px;
+                margin-top: 24px;
+                cursor: pointer;
+            }
+            #menu img:first-child{
+                margin-top: 16px;
+            }
+            
+            #pen{
+                position: absolute;
+                margin-top: 151px;
+                margin-left: 111px;
+                display: none;
+                flex-direction: column;
+                width: 60px;
+                height: 303px;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                align-items:center; 
+                z-index: 2;  
+            }
+            #pen img:hover{
+                cursor: pointer;
+            }
+            
+            #tickness{
+                position: absolute;
+                margin-top: 350px;
+                margin-left: 179px;
+                display: none;
+                width: 246px;
+                height: 51px;
+                font-size: 10px;
+                color: #222222;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                z-index: 2;
+            }
+            
+            #color{
+                position: absolute;
+                margin-top: 362px;
+                margin-left: 179px;
+                width: 216px;
+                height: 146px;
+                display: none;
+                flex-wrap: wrap;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                z-index: 2;
+            }
+            #color img{
+                margin-left: 22px;
+                width: 28px;
+                cursor: pointer;
+            }
+            
+            #figure{
+                position: absolute;
+                margin-top: 280px;
+                margin-left: 110px;
+                width: 160px;
+                height: 158px;
+                display: none;
+                flex-wrap: wrap;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                z-index: 2;
+            }
+            #figure img{
+                margin-left: 18px;
+                cursor: pointer;
+            }
+            #figure img:nth-child(7){
+                margin-left: 21px;
+                margin-right: 5px;
+            }
+            
+            #text{
+                position: absolute;
+                width: 483px;
+                height: 53px;
+                margin-left: 144px;
+                margin-top: 150px;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                z-index: 4;
+                display: none;
+                align-items: center;
+            }
+            #text img{
+                cursor: pointer;
+            }
+            #f_color{
+                position: absolute;
+                margin-top: 216px;
+                margin-left: 300px;
+                width: 216px;
+                height: 146px;
+                display: none;
+                flex-wrap: wrap;
+                background: white;
+                filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.15));
+                border-radius: 8px;
+                z-index: 4;
+            }
+            #f_color img{
+                margin-left: 22px;
+                width: 28px;
+                cursor: pointer;
+            }
+            
+            #user_text{
+                position: absolute;
+                width: 200px;
+                height: 100px;
+                display: none;
+                z-index: 3;
+                resize: both;
+                overflow: hidden;
+                background: none;
+                border: 1px solid blue;
+                white-space: pre-line;
+                
+            }
+            #user_text:focus{
+                outline: none;
+                font: 14px sans-serif;
+            }
+            #text_block{
+                
+            }
+            
+            #canvas{
+                z-index: 1;
+                cursor: crosshair;
+                position: absolute;
+            }
+            
+			#fake_canvas{
+                z-index: 1;
+				display: none;
+                position: absolute;
+            }
